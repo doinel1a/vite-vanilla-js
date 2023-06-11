@@ -1,18 +1,18 @@
 [node]: https://nodejs.org/en
 [yarn]: https://yarnpkg.com
 [pnpm]: https://pnpm.io
-[demo]: https://webpack-vanilla-js.d1a.app
-[license]: https://github.com/doinel1a/webpack-vanilla-js/blob/main/LICENSE
-[code-of-conduct]: https://github.com/doinel1a/webpack-vanilla-js/blob/main/CODE_OF_CONDUCT.md
-[issues]: https://github.com/doinel1a/webpack-vanilla-js/issues
-[pulls]: https://github.com/doinel1a/webpack-vanilla-js/pulls
+[demo]: https://vite-vanilla-js.d1a.app
+[license]: https://github.com/doinel1a/vite-vanilla-js/blob/main/LICENSE
+[code-of-conduct]: https://github.com/doinel1a/vite-vanilla-js/blob/main/CODE_OF_CONDUCT.md
+[issues]: https://github.com/doinel1a/vite-vanilla-js/issues
+[pulls]: https://github.com/doinel1a/vite-vanilla-js/pulls
 [browserslist]: https://browsersl.ist/#q=last+3+versions%2C%3E+0.2%25%2C+not+dead
 [graphviz]: https://www.graphviz.org/download
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 [vite-react-ts-repo]: https://github.com/doinel1a/vite-react-ts-starter
 [vite-react-js-repo]: https://github.com/doinel1a/vite-react-js-starter
 [vite-vanilla-ts-repo]: ''
-[vite-vanilla-js-repo]: ''
+[vite-vanilla-js-repo]: https://github.com/doinel1a/vite-vanilla-js
 [wp-react-ts-repo]: https://github.com/doinel1a/react-ts-starter
 [wp-react-js-repo]: ''
 [wp-vanilla-ts-repo]: ''
@@ -27,11 +27,11 @@
 [opera-icon]: https://github.com/alrra/browser-logos/blob/main/src/opera/opera_64x64.png
 [safari-icon]: https://github.com/alrra/browser-logos/blob/main/src/safari/safari_64x64.png
 
-# Webpack Vanilla JavaScript — Template
+# Vite Vanilla JavaScript — Template
 
 Are you looking for a way to supercharge your development experience and build stunning web applications with ease? You are in the right place!
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
-This template is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **JavaScript**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky**, **Webpack**, **Babel**, **Core-JS** and much more!
+This template is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **JavaScript**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky**, **Vite** and much more!
 
 **[Demo][demo]** | **[Bug(label: bug)][issues]** | **[Feature(label: enhancement)][issues]**
 
@@ -61,16 +61,17 @@ This template is ideal for front-end developers who want to build modern, fast a
 - Get the repository:
   - click **"Use this template"** &nbsp; or &nbsp; **"Fork"** button <br /> alternately
   - **clone** the repository through your terminal: <br />
-    `git clone https://github.com/doinel1a/webpack-vanilla-js YOUR-PROJECT-NAME`;
+    `git clone https://github.com/doinel1a/vite-vanilla-js YOUR-PROJECT-NAME`;
 - Open your terminal or code editor to the path your project is located, and run:
-  | | **NPM** | **PNPM** | **Yarn** |
+
+  |                                                  | **NPM**           | **PNPM**       | **Yarn**       |
   | ------------------------------------------------ | ----------------- | -------------- | -------------- |
-  | To **install** the dependencies | `npm install` | `pnpm install` | `yarn install` |
-  | To **run** the **development server** | `npm run dev` | `pnpm dev` | `yarn dev` |
-  | To **build** your app **for production** | `npm run build` | `pnpm build` | `yarn build` |
+  | To **install** the dependencies                  | `npm install`     | `pnpm install` | `yarn install` |
+  | To **run** the **development server**            | `npm run dev`     | `pnpm dev`     | `yarn dev`     |
+  | To **build** your app **for production**         | `npm run build`   | `pnpm build`   | `yarn build`   |
   | To **preview** your **production optimized app** | `npm run preview` | `pnpm preview` | `yarn preview` |
 
-[Back to :arrow_up:](#webpack-vanilla-javascript--template "Back to 'Table of contents' section")
+[Back to :arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -84,7 +85,7 @@ This repository comes 🔋 packed with:
 - **PostCSS**: A tool for transforming CSS with JavaScript plugins, allowing to add new features to CSS and improve the development process;
 - **Fontawesome**: A library with over 5000 free icons that can be easily customized and used in web applications;
 - **Playwright**: A library for automating web browser interactions, allowing the writing of end-to-end tests and perform browser automation tasks;
-- **Webpack**: A build tool and development server that provides fast and efficient development and production builds for modern web applications;
+- **Vite**: A build tool and development server that provides fast and efficient development and production builds for modern web applications;
 
 And with tools that enhance the development experience:
 
@@ -93,7 +94,7 @@ And with tools that enhance the development experience:
 - **Husky**: A Git hook manager that allows easy set up and configuration of Git hooks, which are scripts that run at certain points in the Git workflow;
 - **Commitlint**: A tool for enforcing commit message conventions in Git repositories, helping to ensure consistent and informative commit messages;
 
-[Back to:arrow_up:](#webpack-vanilla-javascript--template "Back to 'Table of contents' section")
+[Back to:arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -106,19 +107,19 @@ Both tools support **SWC (Speedy Web Compiler)**, a **Rust-based compiler**; Vit
 
 Is a simple and fast solution thanks to it's "zero-config" approach which offers a smoother development experience.
 
-|                           React - TypeScript                            |                           React - JavaScript                            |     |       Vanilla TypeScript        |       Vanilla JavaScript        |
-| :---------------------------------------------------------------------: | :---------------------------------------------------------------------: | :-: | :-----------------------------: | :-----------------------------: |
-| ![React][react-icon] & ![TS][ts-icon] <br /> [Repo][vite-react-ts-repo] | ![React][react-icon] & ![JS][js-icon] <br /> [Repo][vite-react-js-repo] |     | ![TS][ts-icon] <br /> **Soon!** | ![JS][js-icon] <br /> **Soon!** |
+|                             React - TypeScript                              |                             React - JavaScript                              |     |       Vanilla TypeScript        |     Vanilla JavaScript      |
+| :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-: | :-----------------------------: | :-------------------------: |
+| ![React][react-icon] & ![TS][ts-icon] <br /> **[Repo][vite-react-ts-repo]** | ![React][react-icon] & ![JS][js-icon] <br /> **[Repo][vite-react-js-repo]** |     | ![TS][ts-icon] <br /> **Soon!** | ![JS][js-icon] <br /> **/** |
 
 ### Webpack (Babel compiler)
 
 Is more a flexible solution, capable of handling complex configurations.
 
-|                          React - TypeScript                           |                   React - JavaScript                   |     |       Vanilla TypeScript        |     Vanilla JavaScript      |
-| :-------------------------------------------------------------------: | :----------------------------------------------------: | :-: | :-----------------------------: | :-------------------------: |
-| ![React][react-icon] & ![TS][ts-icon] <br /> [Repo][wp-react-ts-repo] | ![React][react-icon] & ![JS][js-icon] <br /> **Soon!** |     | ![TS][ts-icon] <br /> **Soon!** | ![JS][js-icon] <br /> **/** |
+|                            React - TypeScript                             |                   React - JavaScript                   |     |       Vanilla TypeScript        |                  Vanilla JavaScript                  |
+| :-----------------------------------------------------------------------: | :----------------------------------------------------: | :-: | :-----------------------------: | :--------------------------------------------------: |
+| ![React][react-icon] & ![TS][ts-icon] <br /> **[Repo][wp-react-ts-repo]** | ![React][react-icon] & ![JS][js-icon] <br /> **Soon!** |     | ![TS][ts-icon] <br /> **Soon!** | ![JS][js-icon] <br /> **[Repo][wp-vanilla-js-repo]** |
 
-[Back to:arrow_up:](#webpack-vanilla-javascript--template "Back to 'Table of contents' section")
+[Back to:arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -140,7 +141,7 @@ Update the configuration [here][browserslist] and check in real-time the **globa
 
 **\* The more versions to support, larger JS and CSS bundles size will be.**
 
-[Back to:arrow_up:](#webpack-vanilla-javascript--template "Back to 'Table of contents' section")
+[Back to:arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -165,7 +166,7 @@ Please check the [**contributing guide**][code-of-conduct] for details on how to
     4.  Push your new branch: `git push origin fix/BUG-FIX`;
 4.  **Open a new [pull request][pulls];**
 
-[Back to:arrow_up:](#webpack-vanilla-javascript--template "Back to 'Table of contents' section")
+[Back to:arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -175,7 +176,7 @@ All logos and trademarks are the property of their respective owners.
 Everything else is distributed under the **MIT License** .  
 See the [LICENSE][license] file for more informations.
 
-[Back to:arrow_up:](#webpack-vanilla-javascript--template "Back to 'Table of contents' section")
+[Back to:arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")
 
 ---
 
@@ -186,4 +187,4 @@ Special thanks to:
 - [alrra](https://github.com/alrra) for [browser-logos](https://github.com/alrra/browser-logos);
 - [tandpfun](https://github.com/tandpfun) for [skill-icons](https://github.com/tandpfun/skill-icons);
 
-[Back to:arrow_up:](#webpack-vanilla-javascript--template "Back to 'Table of contents' section")
+[Back to:arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")

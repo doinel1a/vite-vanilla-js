@@ -1,7 +1,7 @@
 /* eslint-disable unicorn/prefer-module */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./src/**/*.{html, css, js}'],
+  content: ['./index.html', './src/**/*.{html, css, js}'],
   darkMode: 'class',
   theme: {
     extend: {

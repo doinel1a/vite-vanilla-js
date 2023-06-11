@@ -1,0 +1,24 @@
+{
+  "lang": "en-EN",
+  "name": "Vite Vanilla JS — Template",
+  "short_name": "Vite Vanilla JS — Template",
+  "description": "Start a Vanilla JavaScript App, SPA, landing page or website using Vite, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#000",
+  "background_color": "#000",
+  "icons": [
+    {
+      "src": "/favicon/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

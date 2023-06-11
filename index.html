@@ -7,39 +7,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- GENERAL -->
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <!-- prettier-ignore -->
-    <link rel="manifest" href=<%= htmlWebpackPlugin.options.manifest %>
+    <title>Vite Vanilla JS — Template</title>
+    <meta name="title" content="Vite Vanilla JS — Template" />
+    <meta name="application-name" content="Vite Vanilla JS — Template" />
+    <meta
+      name="description"
+      content="Start a Vanilla JavaScript App, SPA, landing page or website using Vite, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds."
     />
-    <!-- prettier-ignore -->
-    <link rel="icon" sizes="192x192" href=<%= htmlWebpackPlugin.options.icon192 %>
+    <meta
+      name="keywords"
+      content="
+        vanilla js vite, vanillajs vite, vanilla.js vite, vanilla-js vite,
+        vanilla javascript vite, vanillajavascript vite, vanilla.javascript vite, vanilla-javascript vite,
+        vanilla js vite template, vanillajs vite templante, vanilla.js vite templante, vanilla-js vite templante,
+        vanilla javascript vite templante, vanillajavascript vite templante, vanilla.javascript vite templante, vanilla-javascript vite templante,
+        javascript, js, vanilla-javascript, vanilla-js, development, template, boilerplate, template-boilerplate, boilerplate-frontend, starter-kit, vite, babel, core-js, husky, eslint, commitlint, prettier, postcss, tailwind, tailwindcss, sass, scss, css, github, web app, web-app, webapp, spa 
+      "
     />
-    <!-- prettier-ignore -->
-    <link rel="icon" sizes="512x512" href=<%= htmlWebpackPlugin.options.icon512 %>
-    />
+    <link rel="manifest" href="/app.webmanifest" />
+    <link rel="icon" sizes="192x192" href="/favicon/favicon-192.webp" />
+    <link rel="icon" sizes="512x512" href="/favicon/favicon-512.webp" />
 
     <!-- GOOGLE -->
     <meta name="rating" content="General" />
     <meta name="robots" content="index,follow" />
-    <!-- prettier-ignore -->
     <link
       rel="sitemap"
       type="application/xml"
       title="Sitemap"
-      href=<%= htmlWebpackPlugin.options.sitemap %>
+      href="/sitemap.xml"
     />
     <meta
       name="google-site-verification"
       content="43hCqye5FYTS4SnBMPKNFP-wBhfLHwRBykWJF1WJawo"
     />
 
-    <!-- iOS -->
-    <!-- prettier-ignore -->
-    <link rel="apple-touch-icon" href=<%= htmlWebpackPlugin.options.icon512 %>
+    <!-- FACEBOOK -->
+    <meta property="og:url" content="https://vite-vanilla-js.d1a.app" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Vite Vanilla JS — Template" />
+    <meta
+      property="og:description"
+      content="Start a Vanilla JavaScript App, SPA, landing page or website using Vite, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds."
     />
-    <!-- prettier-ignore -->
-    <link rel="mask-icon" href=<%= htmlWebpackPlugin.options.icon512 %>
-    color="black" />
+    <meta property="og:image" content="/og.jpg" />
+
+    <!-- TWITTER -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="vite-vanilla-js.d1a.app" />
+    <meta property="twitter:url" content="https://vite-vanilla-js.d1a.app" />
+    <meta name="twitter:title" content="Vite Vanilla JS — Template" />
+    <meta
+      name="twitter:description"
+      content="Start a Vanilla JavaScript App, SPA, landing page or website using Vite, SASS / SCSS, Tailwind CSS and much more, in just 30 seconds."
+    />
+    <meta name="twitter:image" content="/og.jpg" />
+
+    <!-- iOS -->
+    <link rel="apple-touch-icon" href="/favicon/favicon-512.webp" />
+    <link rel="mask-icon" href="/favicon/favicon-512.webp" color="black" />
+    <meta name="apple-mobile-web-app-title" content="Vite ThreeJS — Template" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
@@ -63,7 +90,7 @@
           <h1
             class="z-[1] select-none p-4 text-xl font-semibold text-color sm:text-2xl md:text-3xl"
           >
-            Webpack Vanilla JS — Template
+            Vite Vanilla JS — Template
           </h1>
           <div
             class="arrow-right top absolute -right-[43px] -top-[35px] hidden h-0 w-0 rotate-90 border-b-[60px] border-t-[70px] border-b-transparent border-l-accent-primary border-t-transparent sm:-right-[40px] sm:block sm:border-l-[70px] md:-right-[43px] md:border-l-[76px]"
@@ -95,7 +122,7 @@
         id="github"
         title="Get started on GitHub"
         aria-label="Get started on GitHub"
-        href="https://github.com/doinel1a/webpack-vanilla-js"
+        href="https://github.com/doinel1a/vite-vanilla-js"
         class="github-corner"
       >
         <svg
@@ -128,4 +155,6 @@
       </a>
     </main>
   </body>
+
+  <script type="module" src="src/js/index.js"></script>
 </html>
