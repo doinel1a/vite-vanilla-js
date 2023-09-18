@@ -11,7 +11,7 @@
 [commitlint]: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
 [vite-react-ts-repo]: https://github.com/doinel1a/vite-react-ts-starter
 [vite-react-js-repo]: https://github.com/doinel1a/vite-react-js-starter
-[vite-vanilla-ts-repo]: ''
+[vite-vanilla-ts-repo]: https://github.com/doinel1a/vite-vanilla-ts
 [vite-vanilla-js-repo]: https://github.com/doinel1a/vite-vanilla-js
 [wp-react-ts-repo]: https://github.com/doinel1a/react-ts-starter
 [wp-react-js-repo]: ''
@@ -33,7 +33,11 @@ Are you looking for a way to supercharge your development experience and build s
 This development starter template is the ultimate solution to help you getting started on your project in no time, without the hassle of setting up and configuring your development environment from scratch each time you start working.
 This template is ideal for front-end developers who want to build modern, fast and reliable web applications with the latest cutting edge technologies such as **JavaScript**, **TailwindCSS**, **ESLint**, **Prettier**, **Husky**, **Vite** and much more!
 
-**[Demo][demo]** | **[Bug(label: bug)][issues]** | **[Feature(label: enhancement)][issues]**
+---
+
+**[Demo][demo]** &nbsp;&nbsp;**|**&nbsp;&nbsp; **[Bug(label: bug)][issues]** &nbsp;&nbsp;**|**&nbsp;&nbsp; **[Feature(label: enhancement)][issues]**
+
+---
 
 ## :bookmark: Table of contents
 
@@ -79,20 +83,19 @@ This template is ideal for front-end developers who want to build modern, fast a
 
 This repository comes 🔋 packed with:
 
-- **JavaScript**: A programming language used primarily for creating dynamic web content and interactive user interfaces;
-- **TailwindCSS**: A utility-first CSS framework that provides predefined classes for common styles and layout patterns, allowing quick styling without writing custom CSS;
-- **SASS**: A CSS preprocessor that adds features such as variables, nesting, and mixins to CSS, making it easier to write and maintain large CSS codebases;
-- **PostCSS**: A tool for transforming CSS with JavaScript plugins, allowing to add new features to CSS and improve the development process;
-- **Fontawesome**: A library with over 5000 free icons that can be easily customized and used in web applications;
-- **Playwright**: A library for automating web browser interactions, allowing the writing of end-to-end tests and perform browser automation tasks;
-- **Vite**: A build tool and development server that provides fast and efficient development and production builds for modern web applications;
+- **JavaScript**;
+- **TailwindCSS**;
+- **SASS** & **SCSS**;
+- **PostCSS**;
+- **Playwright**;
+- **Vite**;
 
 And with tools that enhance the development experience:
 
-- **ESLint**: A tool for enforcing coding standards and identifying potential errors in the code;
-- **Prettier**: A code formatter that automatically formats code to conform to a consistent style, making it easier to read and maintain;
-- **Husky**: A Git hook manager that allows easy set up and configuration of Git hooks, which are scripts that run at certain points in the Git workflow;
-- **Commitlint**: A tool for enforcing commit message conventions in Git repositories, helping to ensure consistent and informative commit messages;
+- **ESLint**;
+- **Prettier**;
+- **Husky**;
+- **Commitlint**;
 
 [Back to:arrow_up:](#vite-vanilla-javascript--template "Back to 'Table of contents' section")
 
@@ -107,9 +110,9 @@ Both tools support **SWC (Speedy Web Compiler)**, a **Rust-based compiler**; Vit
 
 Is a simple and fast solution thanks to it's "zero-config" approach which offers a smoother development experience.
 
-|                             React - TypeScript                              |                             React - JavaScript                              |     |       Vanilla TypeScript        |     Vanilla JavaScript      |
-| :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-: | :-----------------------------: | :-------------------------: |
-| ![React][react-icon] & ![TS][ts-icon] <br /> **[Repo][vite-react-ts-repo]** | ![React][react-icon] & ![JS][js-icon] <br /> **[Repo][vite-react-js-repo]** |     | ![TS][ts-icon] <br /> **Soon!** | ![JS][js-icon] <br /> **/** |
+|                             React - TypeScript                              |                             React - JavaScript                              |     |                   Vanilla TypeScript                   |     Vanilla JavaScript      |
+| :-------------------------------------------------------------------------: | :-------------------------------------------------------------------------: | :-: | :----------------------------------------------------: | :-------------------------: |
+| ![React][react-icon] & ![TS][ts-icon] <br /> **[Repo][vite-react-ts-repo]** | ![React][react-icon] & ![JS][js-icon] <br /> **[Repo][vite-react-js-repo]** |     | ![TS][ts-icon] <br /> **[Repo][vite-vanilla-ts-repo]** | ![JS][js-icon] <br /> **/** |
 
 ### Webpack (Babel compiler)
 
